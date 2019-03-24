@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+
+#quiz {
+    Margin-left: 70px;
+    background: turquoise;
+    padding: 20px 20px 20px 20px;
+    width: 400px;
+    border-radius: 50px;
+    float: center;
+}
+
+
+#after_submit {
+    visibility: hidden;
+
+}

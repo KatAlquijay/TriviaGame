@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Trivia Game Fun!</title>
+    <link href ="style.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <script src = "TriviaGame.js"></script>
+
+</head>
+
+
+<body>
+<h1>Good Luck! Have fun!!</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p>What is the cololective name for a group of lions?</p>
+    <input type = "radio" id = "mc" name = "question1" value = "Herd"> Herd<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Gang"> Gang<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Pride"> Pride<br>
+
+<p>What kind of animal is a Komodo dragon?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Cat"> Cat<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Mammal"> Mammal<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Lizard"> Lizard<br>
+
+<p>True or False-the python is a poisonous snake?</p>
+    <input id = "textbox" type = "text" name = "question3">
+
+<p>How many legs does a lobster have?</p>
+    <input type = "radio" id = "mc" name = "question4" value = "10"> 10<br>
+    <input type = "radio" id = "mc" name = "question4" value = "5"> 5<br>
+    <input type = "radio" id = "mc" name = "question4" value = "6"> 6<br>
+
+<p>How many legs does a water bear have?</p>
+    <input type = "radio" id = "mc" name = "question5" value = "8"> 8<br>
+    <input type = "radio" id = "mc" name = "question5" value = "6"> 6<br>
+    <input type = "radio" id = "mc" name = "question5" value = "12"> 12<br>
+
+<p>Which out of these two is a monkey?</p>
+    <input type = "radio" id = "mc" name = "question6" value = "Gorilla"> Gorilla<br>
+    <input type = "radio" id = "mc" name = "question6" value = "Chimpanzee"> Chimpanzee<br>
+    <input type = "radio" id = "mc" name = "question6" value = "None Of The Above"> None Of The Above<br>
+
+<p>Which out of these animals have ears, but cannot hear?</p>
+    <input type = "radio" id = "mc" name = "question7" value = "Bat"> Bat<br>
+    <input type = "radio" id = "mc" name = "question7" value = "Snake"> Snake<br>
+    <input type = "radio" id = "mc" name = "question7" value = "Bird"> Bird<br>
+
+<p>Which animal has eyes but can't see very well?</p>
+    <input type = "radio" id = "mc" name = "question8" value = "Ant"> Ant<br>
+    <input type = "radio" id = "mc" name = "question8" value = "Bat"> Bat<br>
+    <input type = "radio" id = "mc" name = "question8" value = "The Eye-Eye"> The Eye-Eye<br>
+
+<p>Which of these can't swim backwards?</p>
+    <input type = "radio" id = "mc" name = "question9" value = "Dolphin"> Dolphin<br>
+    <input type = "radio" id = "mc" name = "question9" value = "Seahorse"> Seahorse<br>
+    <input type = "radio" id = "mc" name = "question9" value = "Shark"> Shark<br>
+
+<p>which is the following mostly to the T-Rex?</p>
+    <input type = "radio" id = "mc" name = "question10" value = "Chicken"> Chiken<br>
+    <input type = "radio" id = "mc" name = "question10" value = "Crocodile"> Crocodile<br>
+    <input type = "radio" id = "mc" name = "question10" value = "Lizard"> Lizard<br>
+
+<p>Which of the following canine is known for its iron jaw?</p>
+    <input type = "radio" id = "mc" name = "question11" value = "Pitbull"> Pitbull<br>
+    <input type = "radio" id = "mc" name = "question11" value = "German Shepherd"> German Shepherd<br>
+    <input type = "radio" id = "mc" name = "question11" value = "Rottweiller"> Rottweiller<br>
+
+<p>Which of the following is a vegetable?</p>
+    <input type = "radio" id = "mc" name = "question12" value = "Kakarot"> Kakarot<br>
+    <input type = "radio" id = "mc" name = "question12" value = "Broly"> Broly<br>
+    <input type = "radio" id = "mc" name = "question12" value = "Cabba"> Cabba<br>
+    <input type = "radio" id = "mc" name = "question12" value = "All of The Above"> All of The Above<br>
+
+    <input id = "button" type = "button" value = "Finished" onclick = "check();">
+
+
+
+</form>
+
+<div id = "after_submit">
+
+<p id = "message"></p>
+<p id = "number_correct"></p>
+</div>
+
+</body>
+</html>
